@@ -11,6 +11,10 @@ const useStyles = makeStyles({
     textAlign: "center",
     color: "#F1FAEE",
     background: "#E63946",
+    '&:hover': {
+        color: "#E63946",
+        background: "#F1FAEE"
+    },
     margin: "1%", 
     paddingTop: "0.5em",
     paddingBottom: "0.5em",
@@ -27,7 +31,7 @@ function Header() {
         <Grid container spacing ={1}>
             <Grid lg={1} ></Grid>
 
-            <Grid lg={10} xs={12}>
+            <Grid lg={10} md={10} xs={12}>
             <div className={classes.headline}>
                 <h1>Are You The Next Member of Distl?</h1>
             </div>
