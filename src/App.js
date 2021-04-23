@@ -5,6 +5,9 @@ import Header from "./components/Header";
 import PowerfulIntro from "./components/PowerfulIntro"
 import About from "./components/About"
 import Technology from "./components/Technology";
+import Why from "./components/Why";
+import TeamMember from "./components/TeamMember";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <PowerfulIntro />
       <About />
       <Technology />
+      <Why />
+      <TeamMember />
+      <ContactUs />
     </div>
   );
 }
