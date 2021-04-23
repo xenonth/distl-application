@@ -1,7 +1,8 @@
 import React from "react";
 
 //Material UI styling
-import AppBar from "@material-ui/core/AppBar"
+import Paper from "@material-ui/core/Paper"
+import Grid from "@material-ui/core/Grid"
 import { makeStyles } from '@material-ui/core/styles';
 
 //Making Material UI stand out with the makestyles hook variant CSS Library
@@ -10,8 +11,9 @@ const useStyles = makeStyles({
     textAlign: "center",
     color: "#F1FAEE",
     background: "#E63946",
-    height: '100%',
-    width: '100%',
+    margin: "1%", 
+    paddingTop: "0.5em",
+    paddingBottom: "0.5em",
   },
 
 });
@@ -22,9 +24,16 @@ function Header() {
     const classes = useStyles();
     
     return (
-        <div className={classes.headline}>
-            <h1>Are You The Next Member of Distl?</h1>
-        </div>
+        <Grid container spacing ={1}>
+            <Grid lg={1} ></Grid>
+
+            <Grid lg={10} xs={12}>
+            <div className={classes.headline}>
+                <h1>Are You The Next Member of Distl?</h1>
+            </div>
+            </Grid>
+
+        </Grid>
     );
   }
   
