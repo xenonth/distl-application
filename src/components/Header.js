@@ -1,7 +1,11 @@
+/* 
+Header/Headline section will grab the user's attention as to what the page is about.
+there will also be a feature throughout the 
+*/
+
 import React from "react";
 
-//Material UI styling
-import Paper from "@material-ui/core/Paper"
+//import Grid for styling alignment and makeStyles for alternate css styling
 import Grid from "@material-ui/core/Grid"
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -11,10 +15,13 @@ const useStyles = makeStyles({
     textAlign: "center",
     color: "#F1FAEE",
     background: "#E63946",
+
+    //when the background is tapped on mobile or on hover the text and background will swap their colors
     '&:hover': {
         color: "#E63946",
         background: "#F1FAEE"
     },
+
     margin: "1%", 
     paddingTop: "0.5em",
     paddingBottom: "0.5em",

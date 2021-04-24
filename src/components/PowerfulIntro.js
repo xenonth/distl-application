@@ -30,7 +30,8 @@ function PowerfulIntro() {
 
         <Grid lg={10} md={10} xs={12}>
             <div className={classes.root}>
-                <h3>We’re looking to expand our outfit from four to five, in the form of an awesome developer!
+                <h3>
+                    We’re looking to expand our outfit from four to five, in the form of an awesome developer!
                 </h3>
             </div>
         </Grid>

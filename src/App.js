@@ -1,6 +1,6 @@
 import React from "react";
 
-//import components for webpage into app
+//import components for webpage into app in order of appearence
 import Header from "./components/Header";
 import PowerfulIntro from "./components/PowerfulIntro"
 import About from "./components/About"
