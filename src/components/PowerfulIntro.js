@@ -1,6 +1,6 @@
 import React from "react";
 
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from "@material-ui/core/styles";
 
 //Making Material UI stand out with the makestyles hook variant CSS Library
 const useStyles = makeStyles({
