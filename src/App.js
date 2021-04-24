@@ -9,17 +9,26 @@ import Why from "./components/Why";
 import TeamMember from "./components/TeamMember";
 import ContactUs from "./components/ContactUs";
 
+//import material UI Grid
+import Grid from "@material-ui/core/Grid"
+
 function App() {
   return (
-    <div>
-      <Header />
-      <PowerfulIntro />
-      <About />
-      <Technology />
-      <Why />
-      <TeamMember />
-      <ContactUs />
-    </div>
+    <Grid container spacing ={1}>
+    
+    <Grid lg={1} ></Grid>
+
+      <Grid lg={10} md={10} xs={12}>
+        <Header />
+        <PowerfulIntro />
+        <About />
+        <Technology />
+        <Why />
+        <TeamMember />
+        <ContactUs />
+      </Grid>
+      
+    </Grid>
   );
 }
 

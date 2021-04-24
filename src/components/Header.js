@@ -5,8 +5,8 @@ there will also be a feature throughout the
 
 import React from "react";
 
-//import Grid for styling alignment and makeStyles for alternate css styling
-import Grid from "@material-ui/core/Grid"
+//import makeStyles for alternate css styling
+
 import { makeStyles } from '@material-ui/core/styles';
 
 //Making Material UI stand out with the makestyles hook variant CSS Library
@@ -29,23 +29,15 @@ const useStyles = makeStyles({
 
 });
 
-
 function Header() {
     //calling usestyles object function as a hook to import directly into the html
     const classes = useStyles();
     
     return (
-        <Grid container spacing ={1}>
-            <Grid lg={1} ></Grid>
-
-            <Grid lg={10} md={10} xs={12}>
             <div className={classes.headline}>
                 <h1>Are You The Next Member of Distl?</h1>
             </div>
-            </Grid>
-
-        </Grid>
     );
   }
   
-  export default Header;
+export default Header;
