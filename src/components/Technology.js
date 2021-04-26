@@ -6,6 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles({
   theTechnology: {
     textAlign: "center",
+    fontSize: "16pt",
     color: "#F1FAEE",
     background: "#457B9D",
 

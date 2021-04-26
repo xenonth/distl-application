@@ -19,6 +19,7 @@ const useStyles = makeStyles({
     margin: "1%", 
     paddingTop: "0.5em",
     paddingBottom: "0.5em",
+    fontSize: "16pt",
   },
   head: {
     textAlign: "center"
@@ -31,9 +32,9 @@ function TeamMember() {
     return (
         <div className={classes.team}>
 
-        <h4 className={classes.head}>
+        <h3 className={classes.head}>
           We’re looking for a team member that has:
-        </h4>
+        </h3>
 
         <ul>
           <li>

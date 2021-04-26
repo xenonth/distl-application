@@ -27,9 +27,9 @@ function PowerfulIntro() {
 
     return (
             <div className={classes.strongIntro}>
-                <h3>
+                <h2>
                     We’re looking to expand our outfit from four to five, in the form of an awesome developer!
-                </h3>
+                </h2>
             </div>
     );
   }

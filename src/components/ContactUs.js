@@ -10,16 +10,17 @@ import { makeStyles } from '@material-ui/core/styles';
 //Making Material UI stand out with the makestyles hook variant CSS Library
 const useStyles = makeStyles({
     contact: {
-    textAlign: "center",
+        textAlign: "center",
+        fontSize: "16pt",
       color: "#F1FAEE",
       background: "#E63946",
   
       //when the background is tapped on mobile or on hover the text and background will swap their colors
-      '&:hover': {
+        '&:hover': {
 
           color: "#E63946",
           background: "#F1FAEE"
-      },
+        },
   
       margin: "1%", 
       paddingTop: "0.5em",
@@ -40,7 +41,7 @@ function ContactUs() {
 
     return (
     <div className={classes.contact}>
-        <p class="the-challenge">
+        <p>
             If this sounds like the right place for you, 
             <span className={classes.makeBold}>
                 Fork

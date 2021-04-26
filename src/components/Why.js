@@ -12,6 +12,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
     whyDISTL: {
       color: "#F1FAEE",
+      fontSize: "16pt",
       background: "#E63946",
   
       //when the background is tapped on mobile or on hover the text and background will swap their colors
