@@ -27,16 +27,7 @@ const useStyles = makeStyles({
     head: {
       textAlign: "center"
     },
-    list: {
-      color: "#F1FAEE",
-      background: "#E63946",  
-      //when the background is tapped on mobile or on hover the text and background will swap their colors
-      '&:hover': {
-          color: "#E63946",
-          background: "#F1FAEE"
-      },
-    }
-})
+});
 
 function Why() {
   const classes = useStyles();
@@ -45,7 +36,7 @@ function Why() {
         <h4 className={classes.head}>
           Distl is an ideal place to cultivate your craft as a web developer.
           </h4>
-        <ul className={classes.list}>
+        <ul>
           <li>
             You’ll be supported by a close-knit team of developers, and directly reporting to Distl’s technical lead.
           </li>

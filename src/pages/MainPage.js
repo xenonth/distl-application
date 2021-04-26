@@ -1,3 +1,7 @@
+/* MainPage component to build the webpage and setout how the application looks before being transferred too App
+For simplicity useStyles was attempted for each component in the main page however was unable to apply the styling into a workable solution.
+*/
+
 import React from "react";
 
 //import components for webpage into MainPage in order of MainPageearence

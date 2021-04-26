@@ -13,12 +13,16 @@ const useStyles = makeStyles({
     color: "#F1FAEE",
     background: "#E63946",
 
-    //when the background is tapped on mobile or on hover the text and background will swap their colors
-    '&:hover': {
-        color: "#E63946",
-        background: "#F1FAEE"
+        //when the background is tapped on mobile or on hover the text and background will swap their colors
+        '&:hover': {
+            color: "#E63946",
+            background: "#F1FAEE"
         },
-    }
+    
+        margin: "1%", 
+        paddingTop: "0.5em",
+        paddingBottom: "0.5em",
+    },
 });
 
 function About() {
