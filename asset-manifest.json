@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/distl-application/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/distl-application/static/js/main.306ab77e.chunk.js",
+    "main.js.map": "/distl-application/static/js/main.306ab77e.chunk.js.map",
+    "runtime-main.js": "/distl-application/static/js/runtime-main.0f4def12.js",
+    "runtime-main.js.map": "/distl-application/static/js/runtime-main.0f4def12.js.map",
+    "static/js/2.feb8db90.chunk.js": "/distl-application/static/js/2.feb8db90.chunk.js",
+    "static/js/2.feb8db90.chunk.js.map": "/distl-application/static/js/2.feb8db90.chunk.js.map",
+    "static/js/3.c8c203df.chunk.js": "/distl-application/static/js/3.c8c203df.chunk.js",
+    "static/js/3.c8c203df.chunk.js.map": "/distl-application/static/js/3.c8c203df.chunk.js.map",
+    "index.html": "/distl-application/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/distl-application/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.feb8db90.chunk.js.LICENSE.txt": "/distl-application/static/js/2.feb8db90.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f4def12.js",
+    "static/js/2.feb8db90.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.306ab77e.chunk.js"
+  ]
+}
