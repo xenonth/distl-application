@@ -1,15 +1,13 @@
-# my-react-portfolio
+# DISTL Application
 A simple React.js web application to promote my work utilising material UI.
 
 ### Table of Contents
 
-* [Description](#User_Story)
-* [Purpose](#Purpose)
+* [License](#License)
+* [Description](#Description)
+* [Approach](#Approach)
 * [Usage](#Usage)
 * [Installation](#Installation)
-* [Instruction](#Instruction)
-* [License](#License)
-* [Testing](#Testing)
 * [Troubleshooting](#Troubleshooting)
 * [Application](#Application)
 * [Questions](#Questions)
@@ -20,7 +18,7 @@ A simple React.js web application to promote my work utilising material UI.
 ## Description
 A simple react web application using the Material UI CSS styling Library to showcase my ability to DISTL utilising clean code practices.
 
-## Layout and Approach
+## Approach
 I decided to keep the html the exact same except for refactoring strong into the makeBold class within the Material UI useStyles hook.  Everything was broken down into components based on the content between each opening and closing div tag.
 
 Due to the nature of each component I would be too complex and time consuming to create template components to pass the provided html information into due to the structure and setup of each div section of the page.  For more complex and repetitive segments I would strive to create templates to then pass the wanted information into.  You will be able to see examples of this in my React Portfolio and RPG-Planner code files.
@@ -43,9 +41,12 @@ Online Accounts and Source Code :
 * Github for Online Repository
 
 ### Instruction
-To view the application click the following "app" link
+To view the deployed application please click the link below.  Once you are on the site simply hover the mouse over the box outline that you wish to view and the colors will alternate for focus on the interested area.
 
-Application URL: [app]() 
+### Application
+To view the application click the following "app" link 
+
+Application URL: [app](https://xenonth.github.io/distl-application/) 
 
 ### Troubleshooting
 If there are any issues or questions please email me at timothy.forbes259@gmail.com.  
