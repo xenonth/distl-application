@@ -21,7 +21,7 @@ function MainPage() {
   return (
     <Grid container spacing ={1}>
     
-    <Grid lg={1} ></Grid>
+    <Grid md={1} lg={1} ></Grid>
 
       <Grid lg={10} md={10} xs={12}>
         <Header  />
@@ -33,6 +33,7 @@ function MainPage() {
         <ContactUs />
       </Grid>
       
+
     </Grid>
   );
 }
