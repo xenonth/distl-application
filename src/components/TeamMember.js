@@ -26,7 +26,6 @@ const useStyles = makeStyles({
   },
 });
 
-
 function TeamMember() {
   const classes = useStyles();
     return (
