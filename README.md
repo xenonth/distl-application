@@ -25,6 +25,10 @@ Due to the nature of each component I would be too complex and time consuming to
 
 After this the Material UI Library was installed as I find it easier using the styling Library as it allows modified CSS as an object inside the same file of the component you wish to modify.  
 
+### Ongoing Issues
+
+After successfully deploying the web application regular text of the <p> elements were reduced in size attempts were made to update and redeploy the application to the same URL however no workable solution was found after spending good time scouring online for different solution as you will see by the commit history in the repo.
+
 ### Usage
 The intended use of this web application is for review by David of DISTL and review team for applicants of the web developer position as advertised on LinkedIn.
 
